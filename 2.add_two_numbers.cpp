@@ -52,3 +52,5 @@ public:
         return begin.next;
     }
 };
+
+///pretty elementary math, just take care of the carry number and check which linked list is not exhausted
