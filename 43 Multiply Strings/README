@@ -1,0 +1,4 @@
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+
+#just do it as math way, multiplying each digit of one with all digits of the other (key is to put it on matching index and add the carry number)
