@@ -1,0 +1,8 @@
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
+
+#multiple ways to do it. Mine is close to using 2 pointers.
+  start from the first, find the first that is equal or larger than it, then add the trapping water between, jump to that right one
+  key is if there is no height later larger than the starting, then get the biggest possible one(ie. left > right)
+  
+# an interesting way is using dp.
