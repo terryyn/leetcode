@@ -1,4 +1,3 @@
 Given a collection of distinct integers, return all possible permutations
 
-#for every number in set, intialize a set that starts with it, then find all sets that start with the numbers by calculating
-the permutation of remaining set
+#for every number in set, intialize a set that starts with it, then find all sets that start with the numbers by calculating the permutation of remaining set
