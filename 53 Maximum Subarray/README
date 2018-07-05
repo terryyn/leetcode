@@ -1,0 +1,8 @@
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+# dp is really simple and straightforward by making dp[i] the largest subarray ending in the i
+
+# divide and conquer: 
+
+#greedy(really interesting): find the largest difference between the sums when you summing up the array from left to right. The largest difference corresponds to the sub-array with largest sum.
+
