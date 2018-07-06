@@ -1,0 +1,6 @@
+Given an array of strings, group anagrams together.
+
+#use a hash table (pretty obvious)
+#I directly use the sorted string as key and beat 99% 
+#although use a count of 26 letters has smaller complexity ( O(NK) --- O(NKlogK)  ) 
+ the test cases all have really small K (i.e. short string), which makes my way faster
